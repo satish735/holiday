@@ -1,0 +1,786 @@
+@font-face {
+    font-family: myfont;
+    src: url(./img/font.ttf);
+}
+
+@font-face {
+    font-family: Proxima;
+    src: url(./img/novah.ttf);
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+body {
+    background-image: linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%);
+}
+/* navbar section  */
+
+.nav {
+    display: flex;
+    margin: 1.5% 0;
+}
+
+.nav div {
+    margin-left: 9%;
+}
+.nav div a:hover{
+    font-size: 1.1rem;
+}
+
+.nav div:nth-child(3) a {
+    font-size: 36px;
+    line-height: 21px;
+    color: #171d1c;
+    font-family: myfont;
+}
+
+.nav div:nth-child(3) a:hover {
+    font-size: 40px;
+}
+
+.humburger {
+    display: none;
+}
+
+.navbar input {
+    display: none;
+}
+
+.close {
+    display: none;
+    z-index: 1;
+}
+
+
+/* ENJOY FREEDOM LAND section  */
+
+.land img {
+    width: 100%;
+    height: 500px;
+}
+
+
+.land h2 {
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Proxima;
+}
+
+.mauritius {
+    position: absolute;
+    top: 475px;
+    left: 200px;
+    display: flex;
+    width: 70%;
+    border: 2px solid white;
+    background-color: #ffffff;
+    padding: 2% 0;
+}
+
+.mauritius div {
+    width: 20%;
+    margin: 2%;
+}
+
+.mauritius div hr {
+    margin-left: 5%;
+}
+
+.mauritius div img {
+    float: right;
+}
+
+.mauritius div:last-child button {
+    background-color: red;
+    padding: 12%;
+    border-radius: 50%;
+    border: none;
+}
+.mauritius div:last-child button:hover{
+    background-color: #2abe81;
+}
+
+.mauritius div:last-child button i {
+    color: white;
+}
+
+
+/* See latest vacation ideas section  */
+.vacation {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.vacation-heading i {
+    font-size: 0.6rem;
+    transition: font-size 2s;
+}
+
+.vacation-heading i:hover {
+    font-size: 1rem;
+}
+
+.vacation-heading h2 {
+    font-size: 2.3rem;
+}
+
+.beachfront {
+    position: relative;
+}
+
+.vacation-cart {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.beachfront {
+    width: 29%;
+    margin: 1%;
+}
+
+.vacation-cart div img {
+    width: 100%;
+    height: 270px;
+}
+.vacation-cart div img:hover {
+    width: 102%;
+    height: 273px;
+}
+
+
+/* Recent Holidays locations section  */
+.escapes {
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    top: 153px;
+    left: 40px;
+    padding: 10px;
+}
+
+.escapes div {
+    border: 1px solid;
+    padding: 5% 0;
+}
+
+.escapes div span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.holidays-locations-heading {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.holidays-locations-heading i {
+    font-size: 0.4rem;
+    transition: font-size 2s;
+}
+
+.holidays-locations-heading i:hover {
+    font-size: 0.9rem;
+}
+
+.img-main img {
+    width: 190%;
+    height: 190px;
+}
+.img-main img:hover {
+    width: 192%;
+    height: 192px;
+}
+
+.locations {
+    display: flex;
+    width: 82%;
+    margin: auto;
+}
+
+.thalie {
+    display: flex;
+    background-color: white;
+    width: 49%;
+    margin: 0.5%;
+}
+
+.thalie div {
+    width: 50%;
+}
+
+.img-demo {
+    display: flex;
+}
+
+.img-demo img {
+    width: 63%;
+    height: 60px;
+    margin-top: -5px;
+}
+.img-demo img:hover {
+    width: 64%;
+    height: 63px;
+    margin-top: -3px;
+}
+
+.thalie-content h2 {
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.thalie-content {
+    background-color: white;
+    padding: 4% 0;
+}
+
+.thalie-content p {
+    margin-right: 9%;
+    font-size: smaller;
+}
+
+.thalie-content img {
+    margin-right: 5px;
+}
+
+.thalie-content span {
+    margin-right: 20px;
+}
+
+.beachfront-backgroud {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.thalie-content button {
+    background-color: #f31131;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 3% 7%;
+    margin-top: 10%;
+    transition: padding 2s;
+}
+
+.thalie-content button:hover {
+    background-color: #2abe81;
+}
+
+
+/* Why we are different section  */
+.different-headding {
+    text-align: center;
+}
+
+.different-headding h2 {
+    font-size: 2rem;
+}
+
+.different-headding i {
+    font-size: 0.4rem;
+    transition: font-size 2s;
+}
+
+.different-headding i:hover {
+    font-size: 0.9rem;
+}
+
+.different-cart span {
+    background-color: #2abe81;
+    padding: 32px 28px 21px 27px;
+    border-radius: 50%;
+}
+.different-cart span:hover{
+    background-color: #f31131;
+}
+
+.different-cart {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 86%;
+    padding-top: 5%;
+}
+
+
+.different-cart i {
+    font-size: 2rem;
+    color: white;
+}
+
+.different-cart h3 {
+    font-size: 1.4rem;
+    margin-top: 10%;
+}
+
+.different-cart p {
+    margin: 0px 8%;
+    font-size: smaller;
+}
+
+
+
+/* message section  */
+
+.massage {
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.massage img {
+    width: 100%;
+    height: 450px;
+}
+
+.contect-us {
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    background-color: white;
+    padding: 1% 4%;
+}
+
+.contect-us input {
+    border: none;
+}
+
+.contect-us p {
+    border-bottom: 1px solid;
+    margin-right: 10%;
+}
+.contect-us button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 20px;
+    margin: 15% 0%;
+}
+.contect-us button:hover{
+    background-color: #2abe81;
+}
+.contect-us h3 {
+    font-size: 1.6rem;
+}
+.about a {
+    display: block;
+    font-size: 0.7rem;
+    padding: 4px;
+    letter-spacing: 0.1em;
+}
+.about {
+    display: flex;
+    width: 150%;
+}
+.destinations {
+    display: flex;
+}
+
+
+/* footer section  */
+footer {
+    background-color: #171d1c;
+    margin-top: -5px;
+    padding: 25px 0;
+}
+.footer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+    color: #ffffff;
+}
+.address {
+    width: 30%;
+    margin-top: 15px;
+    margin: 25px 25px 0 0;
+
+}
+.address div h5 {
+    text-align: right;
+    font-size: 1rem;
+    margin: 20px 6px 5px 0px;
+}
+.address div p {
+    text-align: right;
+    font-size: small;
+    margin: -4px;
+}
+.about div:last-child {
+    width: 45%;
+}
+.destinations div {
+    width: 120%;
+}
+.about-nav{
+    display: none;
+}
+.info{
+    display: flex;
+    width: 40%;
+}
+.info div{
+    width: 50%;
+}
+.thems{
+    width: 20%;
+}
+
+
+
+
+
+
+@media screen and (max-device-width: 1030px){
+    .nav div:nth-child(3) a{
+        font-size: 30px;
+    }
+    .nav div {
+        margin-left: 4%;
+    }
+    .land h2{
+        left: 164px;
+    }
+    .mauritius{
+        left: 110px;
+    }
+    .beachfront {
+        width: 32%;
+    }
+    .vacation-cart{
+        width: 100%;
+    }
+    .escapes{
+        left: 45px;
+    }
+    .address{
+        width: 45%;
+    }
+    .thalie-content h2{
+        font-size: 1.4rem;
+    }
+    .escapes div span{
+        font-size: 1.1rem;
+    }
+    .img-main img{
+        height: 160px;
+    }
+    .thalie-content p{
+        margin-right: 6%;
+    }
+    /* .thalie-content span {
+        margin: 0px;
+    }
+    .thalie-content img{
+        margin: 0px;
+    } */
+    .locations{
+        width: 100%;
+    }
+    .different-cart{
+        width: 100%;
+    }
+    .footer{
+        width: 90%;
+    }
+}
+
+
+
+
+@media screen and (max-device-width: 550px) {
+
+    .nav {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    .navbar img {
+        position: absolute;
+        margin-top: -4px;
+        width: 52px;
+        height: 32px;
+    }
+
+    .hidme:checked~.nav {
+        display: block;
+    }
+
+    
+   
+    .about-nav a{
+        display: block;
+        font-size: 1.2rem;
+        padding: 11px;
+    }
+    .about-nav p{
+        font-size: 1.6rem;
+    }
+
+    
+
+     .about-nav{
+        display: block;
+     }
+
+
+    .nav {
+        position: absolute;
+        background-color: white;
+        border-radius: 10px;
+        width: 70%;
+        height: 102%;
+        left: 0;
+        top: 30px;
+        animation-name: navbar;
+        animation-duration: 1s;
+        z-index: 1;
+    }
+
+    @keyframes navbar {
+        0% {
+            left: -20px;
+            top: 30px;
+        }
+
+        100% {
+            left: 0;
+            top: 30px;
+        }
+    }
+
+    .nav div a {
+        font-size: 0.9rem;
+        display: block;
+        padding: 7% 1%;
+
+    }
+
+    .nav div:nth-child(3) a {
+        font-size: 1.2rem;
+    }
+
+
+    .hidme:checked~.close {
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: 10px;
+    }
+
+    .land img {
+        margin-top: 10%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .land h2 {
+        font-weight: bold;
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        font-size: 1.2rem;
+    }
+
+
+    .mauritius {
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        display: flex;
+        width: 85%;
+        border: 2px solid white;
+        background-color: #ffffff;
+        padding: 3.5% 0;
+    }
+
+    .mauritius div {
+        width: 20%;
+        font-size: xx-small;
+    }
+
+    .mauritius div img {
+        float: right;
+        width: 10px;
+        height: 10px;
+    }
+    .vacation{
+        margin-top: 15%;
+    }
+
+    .vacation-cart {
+        width: 100%;
+        display: block;
+    }
+
+    .beachfront {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .locations {
+        display: block;
+        width: 91%;
+    }
+
+    .thalie {
+        display: block;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .img-main img {
+        width: 100%;
+    }
+
+    .img-demo img {
+        height: 75px;
+        width: 33.33%;
+    }
+
+    .thalie-content {
+        padding: 3%;
+    }
+
+    .thalie-content img {
+        margin-right: 20px;
+    }
+
+    .thalie-content span {
+        margin-right: 20px;
+    }
+
+    .thalie div {
+        width: 100%;
+    }
+
+    .thalie-content h2 {
+        font-size: 2rem;
+    }
+
+    .thalie-content button {
+        margin: 5% 0%;
+    }
+
+    .different-cart {
+        display: block;
+        width: 100%;
+    }
+
+    .different-cart div {
+        margin-top: 15%;
+    }
+
+    .different-cart p {
+        margin: 0px 2%;
+    }
+
+    .massage img {
+        width: 100%;
+        height: 370px;
+    }
+
+    .contect-us {
+        width: 71%;
+        position: absolute;
+        top: 16%;
+        left: 16%;
+        background-color: white;
+        padding: 1% 2%;
+    }
+
+
+
+
+    .about a {
+        font-size: 1.1rem;
+        padding: 7px;
+        letter-spacing: 0.1em;
+    }
+
+    .about {
+        display: block;
+        width: 90%;
+    }
+    .thems p{
+        font-size: 2.2rem;
+    }
+    .thems a{
+        font-size: 1.2rem;
+    }
+
+    .destinations {
+        display: block;
+        display: flex;
+        margin-left: 2%;
+    }
+
+    footer {
+        background-color: #171d1c;
+        margin-top: 6%;
+        padding: 0px;
+    }
+
+    .footer {
+        margin-top: -7%;
+        display: block;
+        color: white;
+        padding-top: 4%;
+    }
+
+    .address {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .about div {
+        width: 110%;
+    }
+
+    .about div:last-child {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .destinations div {
+        width: 100%;
+        margin-left: -8%;
+    }
+
+    .about p {
+        font-size: 1.9rem;
+    }
+
+    .address div p {
+        text-align: left;
+        font-size: 1.4rem;
+        margin-left: 3%;
+        padding: 2% 1px;
+    }
+    .address div h5 {
+        text-align: left;
+        font-size: 1.8rem;
+        margin-left: 3%;
+    }
+}

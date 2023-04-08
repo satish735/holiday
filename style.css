@@ -230,7 +230,7 @@ body {
 
 .img-demo img {
     width: 63%;
-    height: 60px;
+    height: 64px;
     margin-top: -5px;
 }
 .img-demo img:hover {
@@ -352,7 +352,7 @@ body {
 .contect-us {
     width: 20%;
     position: absolute;
-    top: 30%;
+    top: 24%;
     left: 60%;
     background-color: white;
     padding: 1% 4%;
